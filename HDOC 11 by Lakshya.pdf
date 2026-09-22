@@ -1,0 +1,810 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 12 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F1-1 8 0 R
+/F2 9 0 R
+/F2-0 10 0 R
+/F3 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7436
+>>
+stream
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.392157 .454902 .545098 rg
+BT 1 0 0 1 51.02362 25.51181 Tm (Solved C Programming Assignment) Tj T* ET
+BT 1 0 0 1 518.9 25.51181 Tm (Page 1) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 763.5354 cm
+q
+.090196 .211765 .364706 rg
+BT 1 0 0 1 0 5 Tm /F2 22 Tf 27 TL 67.05617 0 Td (C PROGRAMMING ASSIGNMENT) Tj T* -67.05617 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 733.5354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Menu-Driven Digit Operations Using switch-case) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 684.5354 cm
+q
+BT 1 0 0 1 0 32.5 Tm 14 TL /F2 9.5 Tf 0 0 0 rg (Problem:) Tj /F1 9.5 Tf ( Input a positive integer and perform one operation according to the user's choice: sum of squares of) Tj T* (digits using a ) Tj /F2 9.5 Tf (while) Tj /F1 9.5 Tf ( loop, sum of cubes using a ) Tj /F2 9.5 Tf (for) Tj /F1 9.5 Tf ( loop, or the difference between the sum of cubes and sum of) Tj T* (squares using a ) Tj /F2 9.5 Tf (do-while) Tj /F1 9.5 Tf ( loop.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 656.5354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Algorithm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 481.5354 cm
+q
+BT 1 0 0 1 0 158.5 Tm 14 TL /F1 9.5 Tf 0 0 0 rg (1. Start.) Tj  T* (2. Input a positive integer ) Tj /F2 9.5 Tf (n) Tj /F1 9.5 Tf (.) Tj  T* (3. If n is not positive, display an error and stop.) Tj  T* (4. Display the menu and input the user's choice.) Tj  T* (5. Use ) Tj /F2 9.5 Tf (switch-case) Tj /F1 9.5 Tf ( to select the operation.) Tj  T* -0.061289 Tw (6. Choice 1: copy n to temp; use a ) Tj /F2 9.5 Tf (while) Tj /F1 9.5 Tf ( loop to extract each digit, add digit x digit to sumSquares, and remove the) Tj T* 0 Tw (last digit.) Tj  T* (7. Choice 2: use a ) Tj /F2 9.5 Tf (for) Tj /F1 9.5 Tf ( loop with temp=n; extract each digit and add digit x digit x digit to sumCubes.) Tj  T* (8. Choice 3: initialize both sums to zero; use a ) Tj /F2 9.5 Tf (do-while) Tj /F1 9.5 Tf ( loop to calculate sumSquares and sumCubes together;) Tj T* (compute difference = sumCubes - sumSquares.) Tj  T* (9. Display the result. For an invalid menu choice, display an error message.) Tj  T* (10. Stop.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 453.5354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Test Case Table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.61417 278.5354 cm
+q
+.866667 .94902 .960784 rg
+n 0 168 462.0472 -21 re f*
+.086275 .305882 .388235 rg
+BT /F2 10 Tf 12 TL ET
+q
+1 0 0 1 5 152 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Test) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 152 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Input n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 152 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Choice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 152 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Expected output) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 5 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (123) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Sum of squares = 14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 110 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 110 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (123) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 110 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 110 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Sum of cubes = 36) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (123) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Difference = 22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (45) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Sum of squares = 41) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (45) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 47 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Sum of cubes = 189) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 26 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 26 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 26 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 26 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Difference = 336) Tj T* ET
+Q
+Q
+q
+1 0 0 1 5 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 53.18898 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 132.5591 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 197.7559 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.7 Tm /F1 8.3 Tf 11 TL (Error: enter a positive integer) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.580392 .639216 .721569 RG
+.5 w
+n 0 168 m 462.0472 168 l S
+n 0 0 m 462.0472 0 l S
+n 0 0 m 0 168 l S
+n 462.0472 0 m 462.0472 168 l S
+n 0 147 m 462.0472 147 l S
+n 0 126 m 462.0472 126 l S
+n 0 105 m 462.0472 105 l S
+n 0 84 m 462.0472 84 l S
+n 0 63 m 462.0472 63 l S
+n 0 42 m 462.0472 42 l S
+n 0 21 m 462.0472 21 l S
+n 48.18898 0 m 48.18898 168 l S
+n 127.5591 0 m 127.5591 168 l S
+n 192.7559 0 m 192.7559 168 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 250.5354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Manual Verification of Given Example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 187.5354 cm
+q
+BT 1 0 0 1 0 46.5 Tm 14 TL /F2 9.5 Tf 0 0 0 rg (For n = 123:) Tj /F1 9.5 Tf  T* (Squares: 1) Tj /F1 7.6 Tf 4.75 Ts (2) Tj /F1 9.5 Tf 0 Ts ( + 2) Tj /F1 7.6 Tf 4.75 Ts (2) Tj /F1 9.5 Tf 0 Ts ( + 3) Tj /F1 7.6 Tf 4.75 Ts (2) Tj /F1 9.5 Tf 0 Ts ( = 1 + 4 + 9 = ) Tj /F2 9.5 Tf (14) Tj /F1 9.5 Tf  T* (Cubes: 1) Tj /F1 7.6 Tf 4.75 Ts (3) Tj /F1 9.5 Tf 0 Ts ( + 2) Tj /F1 7.6 Tf 4.75 Ts (3) Tj /F1 9.5 Tf 0 Ts ( + 3) Tj /F1 7.6 Tf 4.75 Ts (3) Tj /F1 9.5 Tf 0 Ts ( = 1 + 8 + 27 = ) Tj /F2 9.5 Tf (36) Tj /F1 9.5 Tf  T* (Difference = 36 - 14 = ) Tj /F2 9.5 Tf (22) Tj /F1 9.5 Tf (.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+60 754 475 70 re
+f*
+0.090196 0.211765 0.364706 rg
+BT
+/F2-0 22 Tf
+26.4 TL
+ET
+BT
+1 0 0 1 210.8368 797 Tm
+(EXPERIMENT 11) Tj
+T*
+ET
+0.278431 0.333333 0.411765 rg
+BT
+/F1-0 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 251.1793 779 Tm
+(By Trishil Chauhan) Tj
+T*
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+178.5827 772.0129 238.1102 29.46614 re
+f*
+0.298039 0.352941 0.419608 rg
+BT
+/F1-1 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 227.1278 784.6413 Tm
+(By Lakshya Yadav \174 590034429) Tj
+T*
+ET
+1 1 1 rg
+n
+148.8189 8 297.6378 18 re
+f*
+0.32549 0.396078 0.478431 rg
+BT
+/F1-1 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 225.8858 14 Tm
+(Lakshya Yadav \174 Student ID\072 590034429) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 9 0 R
+/F3 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 8107
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.392157 .454902 .545098 rg
+BT 1 0 0 1 51.02362 25.51181 Tm (Solved C Programming Assignment) Tj T* ET
+BT 1 0 0 1 518.9 25.51181 Tm (Page 2) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 770.5354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (C Program) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 203.0354 cm
+q
+.796078 .835294 .882353 RG
+.5 w
+.956863 .968627 .976471 rg
+n -1 -6 483.2283 572.5 re B*
+Q
+q
+BT 1 0 0 1 5 552.9 Tm 9.5 TL /F3 7.6 Tf 0 0 0 rg (#include) Tj ( ) Tj (<) Tj (stdio.h) Tj (>) Tj  T*  T* (int) Tj ( ) Tj (main\(\)) Tj ( ) Tj ({) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (int) Tj ( ) Tj (n,) Tj ( ) Tj (choice,) Tj ( ) Tj (temp,) Tj ( ) Tj (digit;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (int) Tj ( ) Tj (sumSquares) Tj ( ) Tj (=) Tj ( ) Tj (0,) Tj ( ) Tj (sumCubes) Tj ( ) Tj (=) Tj ( ) Tj (0,) Tj ( ) Tj (difference;) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Enter) Tj ( ) Tj (a) Tj ( ) Tj (positive) Tj ( ) Tj (integer:) Tj ( ) Tj ("\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (scanf\("%d",) Tj ( ) Tj (&) Tj (n\);) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (if) Tj ( ) Tj (\(n) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (0\)) Tj ( ) Tj ({) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Error:) Tj ( ) Tj (enter) Tj ( ) Tj (a) Tj ( ) Tj (positive) Tj ( ) Tj (integer.\\n"\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (return) Tj ( ) Tj (0;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (}) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("\\nMENU\\n"\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("1.) Tj ( ) Tj (Sum) Tj ( ) Tj (of) Tj ( ) Tj (squares) Tj ( ) Tj (of) Tj ( ) Tj (digits) Tj ( ) Tj (\(while) Tj ( ) Tj (loop\)\\n"\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("2.) Tj ( ) Tj (Sum) Tj ( ) Tj (of) Tj ( ) Tj (cubes) Tj ( ) Tj (of) Tj ( ) Tj (digits) Tj ( ) Tj (\(for) Tj ( ) Tj (loop\)\\n"\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("3.) Tj ( ) Tj (Difference:) Tj ( ) Tj (cubes) Tj ( ) Tj (-) Tj ( ) Tj (squares) Tj ( ) Tj (\(do-while) Tj ( ) Tj (loop\)\\n"\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Enter) Tj ( ) Tj (your) Tj ( ) Tj (choice:) Tj ( ) Tj ("\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (scanf\("%d",) Tj ( ) Tj (&) Tj (choice\);) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (switch) Tj ( ) Tj (\(choice\)) Tj ( ) Tj ({) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (case) Tj ( ) Tj (1:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (temp) Tj ( ) Tj (=) Tj ( ) Tj (n;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (while) Tj ( ) Tj (\(temp) Tj ( ) Tj (>) Tj ( ) Tj (0\)) Tj ( ) Tj ({) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (digit) Tj ( ) Tj (=) Tj ( ) Tj (temp) Tj ( ) Tj (%) Tj ( ) Tj (10;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (sumSquares) Tj ( ) Tj (+=) Tj ( ) Tj (digit) Tj ( ) Tj (*) Tj ( ) Tj (digit;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (temp) Tj ( ) Tj (/=) Tj ( ) Tj (10;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (}) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Sum) Tj ( ) Tj (of) Tj ( ) Tj (squares) Tj ( ) Tj (=) Tj ( ) Tj (%d\\n",) Tj ( ) Tj (sumSquares\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (break;) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (case) Tj ( ) Tj (2:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (\(temp) Tj ( ) Tj (=) Tj ( ) Tj (n;) Tj ( ) Tj (temp) Tj ( ) Tj (>) Tj ( ) Tj (0;) Tj ( ) Tj (temp) Tj ( ) Tj (/=) Tj ( ) Tj (10\)) Tj ( ) Tj ({) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (digit) Tj ( ) Tj (=) Tj ( ) Tj (temp) Tj ( ) Tj (%) Tj ( ) Tj (10;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (sumCubes) Tj ( ) Tj (+=) Tj ( ) Tj (digit) Tj ( ) Tj (*) Tj ( ) Tj (digit) Tj ( ) Tj (*) Tj ( ) Tj (digit;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (}) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Sum) Tj ( ) Tj (of) Tj ( ) Tj (cubes) Tj ( ) Tj (=) Tj ( ) Tj (%d\\n",) Tj ( ) Tj (sumCubes\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (break;) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (case) Tj ( ) Tj (3:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (temp) Tj ( ) Tj (=) Tj ( ) Tj (n;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (do) Tj ( ) Tj ({) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (digit) Tj ( ) Tj (=) Tj ( ) Tj (temp) Tj ( ) Tj (%) Tj ( ) Tj (10;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (sumSquares) Tj ( ) Tj (+=) Tj ( ) Tj (digit) Tj ( ) Tj (*) Tj ( ) Tj (digit;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (sumCubes) Tj ( ) Tj (+=) Tj ( ) Tj (digit) Tj ( ) Tj (*) Tj ( ) Tj (digit) Tj ( ) Tj (*) Tj ( ) Tj (digit;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (temp) Tj ( ) Tj (/=) Tj ( ) Tj (10;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (}) Tj ( ) Tj (while) Tj ( ) Tj (\(temp) Tj ( ) Tj (>) Tj ( ) Tj (0\);) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (difference) Tj ( ) Tj (=) Tj ( ) Tj (sumCubes) Tj ( ) Tj (-) Tj ( ) Tj (sumSquares;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Difference) Tj ( ) Tj (=) Tj ( ) Tj (%d\\n",) Tj ( ) Tj (difference\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (break;) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (default:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (printf\("Invalid) Tj ( ) Tj (choice.\\n"\);) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (}) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (return) Tj ( ) Tj (0;) Tj  T* (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 175.0354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Compile and Execute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 154.0354 cm
+q
+BT 1 0 0 1 0 4.5 Tm 14 TL /F1 9.5 Tf 0 0 0 rg (Save the program as ) Tj /F2 9.5 Tf (digit_operations.c) Tj /F1 9.5 Tf (. In Linux/GCC, use:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 130.0354 cm
+q
+.796078 .835294 .882353 RG
+.5 w
+.956863 .968627 .976471 rg
+n -1 -6 483.2283 31 re B*
+Q
+q
+BT 1 0 0 1 5 11.4 Tm 9.5 TL /F3 7.6 Tf 0 0 0 rg (gcc) Tj ( ) Tj (digit_operations.c) Tj ( ) Tj (-o) Tj ( ) Tj (digit_operations) Tj  T* (./digit_operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 102.0354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Execution and Testing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 67.03543 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18.5 Tm /F1 9.5 Tf 14 TL (Run the compiled program separately for each prepared test case and compare the actual result with the expected) Tj T* (result in the table.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+148.8189 8 297.6378 18 re
+f*
+0.32549 0.396078 0.478431 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 225.8858 14 Tm
+(Lakshya Yadav \174 Student ID\072 590034429) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 9 0 R
+/F3 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3021
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.392157 .454902 .545098 rg
+BT 1 0 0 1 51.02362 25.51181 Tm (Solved C Programming Assignment) Tj T* ET
+BT 1 0 0 1 518.9 25.51181 Tm (Page 3) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 775.5354 cm
+q
+.082353 .368627 .458824 rg
+BT 1 0 0 1 0 3 Tm /F2 12 Tf 15 TL (Sample Run - Choice 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 694.5354 cm
+q
+.796078 .835294 .882353 RG
+.5 w
+.956863 .968627 .976471 rg
+n -1 -6 483.2283 88 re B*
+Q
+q
+BT 1 0 0 1 5 68.4 Tm 9.5 TL /F3 7.6 Tf 0 0 0 rg (Enter) Tj ( ) Tj (a) Tj ( ) Tj (positive) Tj ( ) Tj (integer:) Tj ( ) Tj (123) Tj  T*  T* (MENU) Tj  T* (1.) Tj ( ) Tj (Sum) Tj ( ) Tj (of) Tj ( ) Tj (squares) Tj ( ) Tj (of) Tj ( ) Tj (digits) Tj ( ) Tj (\(while) Tj ( ) Tj (loop\)) Tj  T* (2.) Tj ( ) Tj (Sum) Tj ( ) Tj (of) Tj ( ) Tj (cubes) Tj ( ) Tj (of) Tj ( ) Tj (digits) Tj ( ) Tj (\(for) Tj ( ) Tj (loop\)) Tj  T* (3.) Tj ( ) Tj (Difference:) Tj ( ) Tj (cubes) Tj ( ) Tj (-) Tj ( ) Tj (squares) Tj ( ) Tj (\(do-while) Tj ( ) Tj (loop\)) Tj  T* (Enter) Tj ( ) Tj (your) Tj ( ) Tj (choice:) Tj ( ) Tj (1) Tj  T* (Sum) Tj ( ) Tj (of) Tj ( ) Tj (squares) Tj ( ) Tj (=) Tj ( ) Tj (14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 672.5354 cm
+q
+.082353 .368627 .458824 rg
+BT 1 0 0 1 0 3 Tm /F2 12 Tf 15 TL (Sample Run - Choice 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 639.0354 cm
+q
+.796078 .835294 .882353 RG
+.5 w
+.956863 .968627 .976471 rg
+n -1 -6 483.2283 40.5 re B*
+Q
+q
+BT 1 0 0 1 5 20.9 Tm 9.5 TL /F3 7.6 Tf 0 0 0 rg (Enter) Tj ( ) Tj (a) Tj ( ) Tj (positive) Tj ( ) Tj (integer:) Tj ( ) Tj (123) Tj  T* (Enter) Tj ( ) Tj (your) Tj ( ) Tj (choice:) Tj ( ) Tj (2) Tj  T* (Sum) Tj ( ) Tj (of) Tj ( ) Tj (cubes) Tj ( ) Tj (=) Tj ( ) Tj (36) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 617.0354 cm
+q
+.082353 .368627 .458824 rg
+BT 1 0 0 1 0 3 Tm /F2 12 Tf 15 TL (Sample Run - Choice 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 583.5354 cm
+q
+.796078 .835294 .882353 RG
+.5 w
+.956863 .968627 .976471 rg
+n -1 -6 483.2283 40.5 re B*
+Q
+q
+BT 1 0 0 1 5 20.9 Tm 9.5 TL /F3 7.6 Tf 0 0 0 rg (Enter) Tj ( ) Tj (a) Tj ( ) Tj (positive) Tj ( ) Tj (integer:) Tj ( ) Tj (123) Tj  T* (Enter) Tj ( ) Tj (your) Tj ( ) Tj (choice:) Tj ( ) Tj (3) Tj  T* (Difference) Tj ( ) Tj (=) Tj ( ) Tj (22) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 555.5354 cm
+q
+.043137 .419608 .470588 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 506.5354 cm
+q
+BT 1 0 0 1 0 32.5 Tm -0.091444 Tw 14 TL /F1 9.5 Tf 0 0 0 rg (The program correctly uses ) Tj /F2 9.5 Tf (switch-case) Tj /F1 9.5 Tf ( for menu selection and the specifically requested loop for each operation:) Tj T* 0 Tw -0.088192 Tw (while for squares, for for cubes, and do-while for the difference. The given example n=123 produces 14, 36, and 22) Tj T* 0 Tw (respectively.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+148.8189 8 297.6378 18 re
+f*
+0.32549 0.396078 0.478431 rg
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+BT
+1 0 0 1 225.8858 14 Tm
+(Lakshya Yadav \174 Student ID\072 590034429) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000000455 00000 n 
+0000007943 00000 n 
+0000008050 00000 n 
+0000008157 00000 n 
+0000008264 00000 n 
+0000008376 00000 n 
+0000008489 00000 n 
+0000008595 00000 n 
+0000008852 00000 n 
+0000017012 00000 n 
+0000017120 00000 n 
+0000017377 00000 n 
+0000020451 00000 n 
+trailer
+<<
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+20559
+%%EOF
